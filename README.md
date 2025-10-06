@@ -3,6 +3,10 @@ MarioKart 64: Recompiled is a project that uses [N64: Recompiled](https://github
 
 ### [Check out the latest release here](https://github.com/sonicdcer/MarioKart64Recomp/releases/latest).
 
+Join the [N64: Recompiled Community Discord](https://discord.gg/AWZThJ4dPf) to discuss this and other N64: Recompiled projects!
+
+[![Discord Invitation](https://discordapp.com/api/guilds/1374083583739826328/widget.png?style=banner2 'N64 Recomp')](https://discord.gg/AWZThJ4dPf)
+
 ### **This repository and its releases do not contain game assets. The original game is required to build or run this project.**
 
 ## Table of Contents
