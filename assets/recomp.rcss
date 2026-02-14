@@ -1961,12 +1961,13 @@ scrollbarhorizontal sliderbar {
 .launcher__background-wrapper {
   display: flex;
   position: absolute;
-  top: -55vw;
-  right: -100%;
-  bottom: -50vw;
-  left: -70vw;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: center;
+  overflow: hidden;
   transform: translateX(0dp);
   animation: 25s cubic-out 1 slide-mm-bg-over;
 }
@@ -1976,18 +1977,16 @@ scrollbarhorizontal sliderbar {
     opacity: 0;
   }
   100% {
-    opacity: 0.1;
+    opacity: 0.85;
   }
 }
 .launcher__background-mm {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
+  min-width: 100%;
+  min-height: 100%;
   width: auto;
-  height: 100%;
+  height: auto;
   animation: 2.5s cubic-in-out 1 fade-mm-in;
-  opacity: 0.1;
+  opacity: 0.85;
 }
 
 .launcher__title-quadrant {
@@ -2027,7 +2026,7 @@ scrollbarhorizontal sliderbar {
 
 */
 .menu-list-item {
-  color: #CCCCCC;
+  color: #000000;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -2039,7 +2038,7 @@ scrollbarhorizontal sliderbar {
   cursor: pointer;
 }
 .menu-list-item svg {
-  image-color: #CCCCCC;
+  image-color: #000000;
 }
 .menu-list-item--right {
   flex-direction: row-reverse;
@@ -2053,11 +2052,11 @@ scrollbarhorizontal sliderbar {
   decorator: horizontal-gradient(#7A2AC600 #DABAF714);
 }
 .menu-list-item:focus:not(:disabled, [disabled]), .menu-list-item:hover:not(:disabled, [disabled]) {
-  color: #B97DF2;
+  color: #009245;
   decorator: horizontal-gradient(#7A2AC614 #DABAF700);
 }
 .menu-list-item:focus:not(:disabled, [disabled]) svg, .menu-list-item:hover:not(:disabled, [disabled]) svg {
-  image-color: #B97DF2;
+  image-color: #009245;
 }
 .menu-list-item:focus:not(:disabled, [disabled]) .menu-list-item__bullet, .menu-list-item:hover:not(:disabled, [disabled]) .menu-list-item__bullet {
   opacity: 1;
